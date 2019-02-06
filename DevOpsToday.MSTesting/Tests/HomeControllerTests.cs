@@ -22,6 +22,5 @@ namespace DevOpsToday.MSTesting.Tests
             Assert.IsNotNull(sut.Privacy());
         }
 
-
     }
 }
