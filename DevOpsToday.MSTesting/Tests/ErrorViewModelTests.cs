@@ -10,7 +10,7 @@ namespace DevOpsToday.MSTesting.Tests
         public void Test_ShowRequestIDMethod()
         {
             var sut=new ErrorViewModel(){RequestId="fred"};
-            Assert.IsTrue(sut.ShowRequestId)
+            Assert.IsTrue(sut.ShowRequestId);
         }
     }
 }
